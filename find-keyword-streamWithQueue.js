@@ -4,7 +4,7 @@ const readline = require('readline')
 
 let totalFilesScanned = 0
 let filesMatched = 0
-const numOfWorkers = 10
+const numOfWorkers = 100
 
 // main function to search files that contain specific word(s)
 const searchFilesThatContainSpecificWords = (dir, keyword, fileExt) => {
@@ -51,6 +51,7 @@ const getFilesInDirectory = (dir, fileExt) => {
     return files;
 }
 
+// function to create workers to improve speed
 function createQueue(files, maxNumOfWorkers = 100, keyword) {
     var numOfWorkers = 0;
     var fileIndex = 0;

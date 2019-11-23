@@ -1,0 +1,14 @@
+{
+  "name": "find-keyword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-rf-small": "node find-keyword-readFile.js ./mock-data/mock-data-small 'version' ''",
+    "test-rf-large": "node find-keyword-readFile.js ./mock-data/mock-data-large 'version' ''",
+    "test-sq-small": "node find-keyword-streamWithQueue.js ./mock-data/mock-data-small 'version' ''",
+    "test-sq-large": "node find-keyword-streamWithQueue.js ./mock-data/mock-data-large 'version' ''"
+  },
+  "author": "",
+  "license": "ISC"
+}
