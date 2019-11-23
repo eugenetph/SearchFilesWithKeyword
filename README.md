@@ -4,8 +4,8 @@ An application written in JavaScript to search files for a specific words in a w
 
 ## Approach
 Two implementation used to search files for a specific
-1. ReadFile - which is Synchronous
-2. Stream   - which is Asynchronous
+1. ReadFile - Synchronous
+2. Stream   - Asynchronous
 
 For ReadFile implementation is very straight forward
 
