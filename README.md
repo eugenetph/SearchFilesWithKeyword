@@ -53,6 +53,7 @@ After running the command successful, you will get two folders mock-data-small &
   ```
   > Note: To search all files, you can leave the fileExtension parameter empty.
   
+  
 ## Reference
 Implementing async queue:
 
